@@ -1,0 +1,28 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-near-midnight.css");
+@import url("observablehq:theme-alt.css");
+@import url("observablehq:theme-wide.css");
+
+:root {
+  --theme-foreground-focus: #fff994;
+}
+
+#observablehq-footer {
+  margin: 1rem auto;
+}
+
+#observablehq-footer nav {
+  max-width: none;
+}
+
+h1 {
+  text-align: center;
+  max-width: none;
+  color: var(--theme-foreground-focus);
+}
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
