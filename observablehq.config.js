@@ -11,4 +11,10 @@ export default {
   title: "2024 Miller Introduction",
   head: head,
   root: "src",
+  pages: [
+    { name: "Inverse Scattering Problem", path: "inverse-scattering-problem" },
+    { name: "Proximal Gradient Methods", path: "proximal-gradient-methods" },
+    { name: "Iterative Ptychography", path: "iterative-ptychography" },
+    { name: "About This Presentation", path: "about" },
+  ],
 };
