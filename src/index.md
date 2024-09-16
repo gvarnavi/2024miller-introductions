@@ -145,3 +145,12 @@ map.flyTo({
   speed: 0.75,
 });
 ```
+
+```js
+// MANUALLY RESIZE MAP ON SIDEBAR TOGGLE
+
+const toggle = document.querySelector("#observablehq-sidebar-toggle");
+toggle.addEventListener("click", () => {
+  map.resize();
+});
+```
